@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/style-pocetna.css">
+    <script src="assets/script.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -15,13 +17,18 @@
     <header>
         <img class="munchlogo" src="assets/images/munchmallow_logo.png" alt="munchmallow logo">
 
-        <div class="linkovi">
-            <li><a href="index.html"> Početna</a></li>
+        <div class="linkovi" id="navlinkovi">
+            <li><a class="active" href="index.html"> Početna</a></li>
             <li><a href="kupi.html"> Gde kupiti </a></li>
             <li><a href="recikliraj.html"> Recikliraj</a></li>
             <li><a href="onama.html"> O nama</a></li>
+            <a href="javascript:void(0);" class="ikonica" id="meniIkonica" onclick="myFunction()">
+
+            </a>
         </div>
     </header>
+
+
 
 </body>
 
