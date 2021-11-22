@@ -53,7 +53,7 @@ header {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .munchlogo {
         padding-bottom: 10px;
     }
@@ -65,15 +65,6 @@ header {
     }
     header {
         flex-direction: column;
-    }
-}
-
-@media (max-width: 350px) {
-    header {
-        padding: 0.5rem;
-    }
-    html {
-        font-size: 14px;
     }
 }
 
@@ -124,5 +115,56 @@ header {
         display: block;
         width: 80%;
         text-align: left;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    background-image: url(images/footerFolija.png);
+    text-align: center;
+    box-shadow: 0px -7px 20px 0px #a3a3a3;
+}
+
+.flexfooter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socijalne a img {
+    width: 45px;
+    height: auto;
+    padding: 20px;
+}
+
+.jaffaLogo {
+    width: 90px;
+    height: auto;
+    padding: 20px;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .flexfooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .socijalne a img {
+        width: 45px;
+        height: auto;
+        padding: 20px;
+    }
+    .jaffaLogo {
+        width: 80px;
+        height: auto;
+        padding: 20px;
     }
 }
