@@ -1,4 +1,4 @@
-function myFunction() {
+function meni() {
     var x = document.getElementById("navlinkovi");
     if (x.className === "linkovi") {
         x.className += " mobilnaverzija";
