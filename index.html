@@ -2,15 +2,19 @@
 <html>
 
 <head>
-    <title>Munchmallow</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munchmallow</title>
 
-    <link rel="stylesheet" href="assets/style-pocetna.css">
-    <script src="assets/script.js"></script>
+    <link rel="stylesheet" href="assets/css/style-pocetna.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
 </head>
 
 <body>
@@ -21,20 +25,47 @@
             <li><a href="kupi.html"> Gde kupiti </a></li>
             <li><a href="recikliraj.html"> Recikliraj</a></li>
             <li><a href="onama.html"> O nama</a></li>
-            <a href="javascript:void(0);" class="ikonica" id="meniIkonica" onclick="myFunction()">
+            <a href="javascript:void(0);" class="ikonica" id="meniIkonica" onclick="meni()">
             </a>
         </div>
     </header>
+    <section class="hero">
+        <div>
+            <h1>Munchmallow priča</h1>
+            <h2>koja traje još od 1981.</h2>
+        </div>
+        <img class="heroImage" src="assets/images/hero.png" alt="">
+    </section>
+    <section class="formula">
+        <div class="levaFormulaOmotac">
+            <img class="heroImage" src="assets/images/munch-griz.png" alt="">
+            <div class="srceOmotac" onclick="promeniSrce()">
+                <div id="srce" class="srce"></div>
+                <p id="brojLajkova" class="brojLajkova">100</p>
+            </div>
+        </div>
+        <div>
+            <h1>Nepogrešiva formula</h1>
+            <h2> Penasti slatkiš na mekanom biskvitu preliven kakao prelivom.</h2>
+        </div>
+    </section>
+    <section class="pakovanje">
+        <h1>Kad kažeš jedan, a misliš šest...</h1>
+        <img class="heroImage" src="assets/images/pakovanje.png" alt="">
+        <h2> Munchmallow dolazi u velikom pakovanju!</h2>
+    </section>
     <footer>
         <div class="flexfooter">
             <img src="assets/images/jafa_logo.png" class="jaffaLogo" alt="logo kompanije Jafa">
+            <button class="vrh" onclick="idiNaVrh()">Idi na vrh</button>
+
             <div class="socijalne">
                 <a href="https://www.youtube.com/watch?v=UK8k04GLd_U"><img src="assets/images/youtube.png" alt=""></a>
                 <a href="https://www.facebook.com/munchmallow.crvenka/"><img src="assets/images/facebook.png" alt=""></a>
                 <a href="https://www.instagram.com/munchuniverse/?hl=sr"><img src="assets/images/instagram.png" alt=""></a>
             </div>
         </div>
-        <p class="copyright">Copy ©2021</p>
+        <p class="copyright">Copyright ©2021</p>
     </footer>
 
 
