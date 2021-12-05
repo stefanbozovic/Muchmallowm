@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nama</title>
+    <link rel="stylesheet" href="assets/css/onamastyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="munchlogo" src="assets/images/munchmallow_logo.png" alt="logo proizvoda Munchmallow">
+        <div class="linkovi" id="navlinkovi">
+            <li><a href="index.html"> Početna</a></li>
+            <li><a href="kupi.html"> Gde kupiti </a></li>
+            <li><a href="recikliraj.html"> Recikliraj</a></li>
+            <li><a class="active" href="onama.html"> O nama</a></li>
+            <a href="javascript:void(0);" class="ikonica" id="meniIkonica" onclick="meniToggle()">
+            </a>
+        </div>
+    </header>
+    <section class="sekcija">
+        <div class="omotacSlajdova">
+            <div class="jedanSlajd">
+                <img src="assets/images/slika1.png">
+                <div class="text">Mi smo Jaffa Crvenka, jedan od najvećih proizvođača slatkiša i grickalica na zapadnom Balkanu.</div>
+            </div>
+
+            <div class="jedanSlajd">
+                <img src="assets/images/slika2.png">
+                <div class="text">Nastali smo u malom vojvođanskom mestu Crvenka, sada već davne 1975. godine.</div>
+            </div>
+
+            <div class="jedanSlajd">
+                <img src="assets/images/slika3.png">
+                <div class="text">Prvog dana u Jaffa fabriku na posao je došlo ukupno 56 radnika.</div>
+            </div>
+            <div class="jedanSlajd">
+                <img src="assets/images/slika4.png">
+                <div class="text">Danas, u našoj kompaniji preko 500 ljudi sa puno brige i ljubavi svakodnevno kreira omiljene brendove za potrošače u celom svetu!</div>
+            </div>
+        </div>
+        <a class="prethodni" onclick="promeniSlajd(-1)">&#10094;</a>
+        <a class="sledeci" onclick="promeniSlajd(1)">&#10095;</a>
+        <div class="kruzici">
+            <span class="krug" onclick="postaviSlajd(1)"></span>
+            <span class="krug" onclick="postaviSlajd(2)"></span>
+            <span class="krug" onclick="postaviSlajd(3)"></span>
+            <span class="krug" onclick="postaviSlajd(4)"></span>
+        </div>
+    </section>
+
+    <section class="sek2">
+        <div class="tekst2">
+            <h1 class="podnaslov">
+                Do današnjeg dana
+                <span id="datum"></span>
+            </h1>
+            <h2 class="podnaslov2">
+                proizveli smo
+                <span id="kolicina"></span>t proizvoda.
+            </h2>
+        </div>
+    </section>
+
+    </div>
+
+    <footer>
+        <div class="flexfooter">
+            <div class="omotacUfooteru">
+                <img src="assets/images/jafa_logo.png" class="jaffaLogo" alt="logo kompanije Jafa">
+                <button class="vrh" onclick="idiNaVrh()">Idi na vrh</button>
+            </div>
+            <div class="socijalne">
+                <a href="https://www.youtube.com/watch?v=UK8k04GLd_U"><img src="assets/images/youtube.png" alt=""></a>
+                <a href="https://www.facebook.com/munchmallow.crvenka/"><img src="assets/images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/munchuniverse/?hl=sr"><img src="assets/images/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <p class="copyright">Copyright ©2021</p>
+    </footer>
+    <script src="assets/js/onamaskripta.js"></script>
+
+
+</body>
+
+</html>
