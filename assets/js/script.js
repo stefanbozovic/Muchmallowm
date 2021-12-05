@@ -1,4 +1,9 @@
-function meni() {
+$(".pakovanjeSLika").smoove({
+    scale: '1.5',
+});
+
+
+function meniToggle() {
     var x = document.getElementById("navlinkovi");
     if (x.className === "linkovi") {
         x.className += " mobilnaverzija";
@@ -26,8 +31,6 @@ function promeniSrce() {
         y2.innerHTML = parseInt(y2.innerHTML) - 1;
     }
 }
-
-
 
 function idiNaVrh() {
     $('html, body').animate({ scrollTop: 0 }, 'slow');
