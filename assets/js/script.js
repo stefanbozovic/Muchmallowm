@@ -13,3 +13,8 @@ function meni() {
         i.className = "ikonica";
     }
 }
+
+
+function idiNaVrh() {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+}

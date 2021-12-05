@@ -108,6 +108,20 @@ footer {
     margin: 0;
 }
 
+.vrh {
+    background-color: #BC1620;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.vrh:hover {
+    background-color: #ca1b26;
+    cursor: pointer;
+}
+
 section {
     height: 90vh;
     padding: 20px;
