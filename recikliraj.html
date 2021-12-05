@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
  </head>
 
 <body>
@@ -35,7 +36,7 @@
     </section>
     <section class="formaSekcija">
         <h1>Prijavi sakupljenu foliju</h1>
-        <h2>Ako u tvojoj blizini nema mesta za odlaganje ALU folije za reciklazu, javi nam se i mi ćemo je rado preuzeti.</h2>
+        <h2>Ako u tvojoj blizini nema mesta za odlaganje ALU folije za reciklažu, javi nam se i mi ćemo je rado preuzeti.</h2>
         <form name="formazareciklazu">
             <label>Ime i prezime</label>
             <input id="imeprezime" type="text" name="">
@@ -70,12 +71,13 @@
 
             <div class="uslovi">
                 <input type="checkbox" name="slazemse" id="slazemse">
-                <label for="slazemse"> Slazem se sa uslovima</label><br>
+                <label for="slazemse"> Slažem se sa uslovima</label><br>
                 <p id="ugreska" class="greska"></p>
             </div>
             <input type="button" value="Pošalji prijavu" class="posalji" onclick="proveriPreSlanja()">
         </form>
     </section>
+    <script src="assets/js/reciklirajskritpa.js"></script>
 </body>
 
 </html>
