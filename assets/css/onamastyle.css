@@ -95,7 +95,7 @@ footer {
 }
 
 .socijalne a img {
-    width: 45px;
+    width: 75px;
     height: auto;
     padding: 20px;
 }
@@ -151,11 +151,6 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .socijalne a img {
-        width: 45px;
-        height: auto;
-        padding: 20px;
-    }
     .jaffaLogo {
         width: 80px;
         height: auto;
@@ -205,6 +200,10 @@ h2 {
     font-size: 1.3rem;
 }
 
+section {
+    padding: 10px;
+}
+
 .jedanSlajd {
     display: none;
     height: 90vh;
@@ -224,17 +223,11 @@ img {
     vertical-align: middle;
 }
 
-
-/* slajdovihow container */
-
 .omotacSlajdova {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
-
-
-/* sledeci & prethodniious buttons */
 
 .prethodni,
 .sledeci {
@@ -254,23 +247,14 @@ img {
     height: 50px;
 }
 
-
-/* Position the "sledeci button" to the right */
-
 .sledeci {
     right: 0;
 }
-
-
-/* On hover, add a black background color with a little bit see-through */
 
 .prethodni:hover,
 .sledeci:hover {
     background-color: #001871;
 }
-
-
-/* Caption text */
 
 .text {
     font-size: 1.2rem;
@@ -281,9 +265,6 @@ img {
     max-width: 800px;
     text-align: center;
 }
-
-
-/* The krugovi/bullets/indicators */
 
 .krug {
     cursor: pointer;
@@ -304,9 +285,6 @@ img {
 .krug:hover {
     background-color: #b69578;
 }
-
-
-/* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 800px) {
     html {
