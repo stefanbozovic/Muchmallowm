@@ -1,0 +1,91 @@
+* {
+    font-family: Roboto, Arial;
+    box-sizing: border-box;
+    transition: 100ms;
+}
+
+html {
+    background-color: #eee1d5;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.woltslika {
+    height: 30vh;
+    width: 30%;
+    max-width: 300px;
+}
+
+.woltslika img {
+    width: 100%;
+}
+
+.maxislika {
+    min-height: 30vh;
+    width: 30%;
+    max-width: 300px;
+}
+
+.maxislika img {
+    margin-top: 125px;
+    width: 100%;
+}
+
+.jaffaslika {
+    min-height: 30vh;
+    width: 30%;
+    max-width: 300px;
+}
+
+.jaffaslika img {
+    width: 100%;
+}
+
+.divprvasekcija {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 40vh;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .divslike {
+        height: 357px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .divslike {
+        height: 250px;
+    }
+}
+
+
+
+
+
