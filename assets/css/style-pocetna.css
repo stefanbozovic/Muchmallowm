@@ -165,6 +165,35 @@ h2 {
     padding-top: 5px;
 }
 
+.srce {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/heart.png);
+    background-size: 100% 100%;
+}
+
+.crveno {
+    background-image: url(../images/heart_filled.png);
+    background-size: 100% 100%;
+}
+
+.srceOmotac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin-bottom: 30px;
+}
+
+.srceOmotac p {
+    padding-left: 10px;
+}
+
+.srceOmotac:hover {
+    cursor: pointer;
+}
+
 .levaFormulaOmotac {
     display: flex;
     flex-direction: column;

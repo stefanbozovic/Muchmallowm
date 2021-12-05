@@ -14,6 +14,20 @@ function meni() {
     }
 }
 
+function promeniSrce() {
+    var x = document.getElementById("srce");
+    if (x.className === "srce") {
+        x.className += " crveno";
+        var y = document.getElementById("brojLajkova");
+        y.innerHTML = parseInt(y.innerHTML) + 1;
+    } else {
+        x.className = "srce";
+        var y2 = document.getElementById("brojLajkova");
+        y2.innerHTML = parseInt(y2.innerHTML) - 1;
+    }
+}
+
+
 
 function idiNaVrh() {
     $('html, body').animate({ scrollTop: 0 }, 'slow');
