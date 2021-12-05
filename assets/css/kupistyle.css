@@ -85,7 +85,136 @@ h2 {
     }
 }
 
+.drugasekcija {
+    max-width: 1000px;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
 
+.divdrugasekcija {
+    background-image: url(../images/traka.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 518px !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divdrugasekcija img {
+    max-width: 150px;
+    margin: 30px 0px;
+}
+
+h4 {
+    color: white;
+    text-align: just;
+}
+
+.slikaPoredTrake {
+    width: 60%;
+}
+
+.trecasekcija {
+    max-width: 1000px;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.divtrecasekcija {
+    background-image: url(../images/traka1.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 518px !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divtrecasekcija img {
+    max-width: 150px;
+    margin: 30px 0px;
+}
+
+h4 {
+    color: white;
+    text-align: justify;
+}
+
+.slikaPoredTrake1 {
+    width: 36%;
+}
+
+.cetvrtasekcija {
+    max-width: 1000px;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.divcetvrtasekcija {
+    background-image: url(../images/traka.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 518px !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divcetvrtasekcija img {
+    max-width: 150px;
+    margin: 30px 0px;
+}
+
+h4 {
+    color: white;
+    text-align: justify;
+}
+
+.slikaPoredTrake1 {
+    width: 36%;
+}
+
+.omotacZaSliku {
+    width: 518px !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
