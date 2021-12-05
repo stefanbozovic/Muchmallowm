@@ -122,6 +122,12 @@ footer {
     cursor: pointer;
 }
 
+.omotacUfooteru {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 section {
     height: 90vh;
     padding: 20px;
@@ -257,6 +263,13 @@ section.pakovanje .heroImage {
     section.formula {
         flex-direction: column;
         text-align: center;
+    }
+    .flexfooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
     }
 }
 
