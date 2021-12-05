@@ -42,3 +42,47 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .podnaslov {
+        font-size: 2.5rem;
+    }
+    .podnaslov2 {
+        font-size: 1.3rem;
+    }
+}
+
+.sek2 {
+    height: 90vh;
+    background-color: #000f47;
+}
+
+.tekst2 h1 {
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.tekst2 h2 {
+    width: 100%;
+    color: white;
+    margin-top: 2px;
+}
+
+.sek2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center
+}
+
+.tekst2 {
+    text-align: center;
+}
